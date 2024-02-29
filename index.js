@@ -39,7 +39,7 @@ app.get("/neople", (req, res) => {
     });
 });
 
-const PORT = process.env.PORT || 80;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on localhost:${PORT}`);
 });
